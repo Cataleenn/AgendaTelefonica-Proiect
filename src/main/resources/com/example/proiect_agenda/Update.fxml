@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect_agenda.UpdateController">
+   <children>
+      <TextField fx:id="nume_textbox" layoutX="164.0" layoutY="111.0" />
+      <TextField fx:id="prenume_textbox" layoutX="164.0" layoutY="153.0" />
+      <TextField fx:id="adresa_textbox" layoutX="164.0" layoutY="200.0" />
+      <TextField fx:id="nr_telefon_textbox" layoutX="164.0" layoutY="244.0" />
+      <Button fx:id="ok_btn" onAction="#onOKButtonClick" layoutX="432.0" layoutY="311.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="OK" />
+      <Label layoutX="62.0" layoutY="40.0" prefHeight="21.0" prefWidth="92.0" text="Update info:" />
+      <Label layoutX="62.0" layoutY="116.0" prefHeight="21.0" prefWidth="53.0" text="Nume" />
+      <Label layoutX="56.0" layoutY="158.0" prefHeight="21.0" prefWidth="82.0" text="Prenume" />
+      <Label layoutX="62.0" layoutY="205.0" prefHeight="21.0" prefWidth="92.0" text="Adresa" />
+      <Label layoutX="62.0" layoutY="249.0" text="Nr_telefon" />
+   </children>
+</AnchorPane>

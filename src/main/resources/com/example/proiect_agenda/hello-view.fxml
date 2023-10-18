@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<Pane fx:id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect_agenda.HelloController">
+   <children>
+      <TableView fx:id="tabel" layoutX="3.0" layoutY="100.0" prefHeight="299.0" prefWidth="594.0">
+        <columns>
+          <TableColumn fx:id="col_nume" prefWidth="145.0" text="Nume" />
+          <TableColumn fx:id="col_prenume" prefWidth="123.0" text="Prenume" />
+            <TableColumn fx:id="col_adresa" prefWidth="157.0" text="Adresa" />
+            <TableColumn fx:id="col_nr_telefon" prefWidth="168.0" text="Nr_Telefon" />
+            <TableColumn fx:id="col_actiune" minWidth="0.0" prefWidth="0.0" text="Actiune" />
+        </columns>
+      </TableView>
+      <Button fx:id="adauga_btn" onAction="#onAdaugaButtonClick" layoutX="21.0" layoutY="37.0" mnemonicParsing="false" text="Adauga" />
+      <TextField fx:id="cauta_textbox" layoutX="316.0" layoutY="37.0" />
+      <Button fx:id="cauta_btn" onAction="#onCautaButtonClicked" layoutX="450.0" layoutY="37.0" mnemonicParsing="false" text="Cauta" />
+      <Button fx:id="update_btn" onAction="#onUpdateButtonClick" layoutX="120.0" layoutY="37.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="delete_btn" onAction="#onDeleteButtonClicked" layoutX="216.0" layoutY="37.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</Pane>

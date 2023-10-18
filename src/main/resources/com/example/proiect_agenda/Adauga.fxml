@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proiect_agenda.AdaugaController">
+   <children>
+      <Label layoutX="62.0" layoutY="120.0" text="Nume" />
+      <Label layoutX="63.0" layoutY="170.0" text="Prenume" />
+      <Label layoutX="70.0" layoutY="215.0" text="Adresa" />
+      <Label layoutX="68.0" layoutY="265.0" text="Nr_telefon" />
+      <TextField fx:id="nume_textbox" layoutX="171.0" layoutY="115.0" />
+      <TextField fx:id="prenume_textbox" layoutX="171.0" layoutY="165.0" />
+      <TextField fx:id="adresa_textbox" layoutX="171.0" layoutY="210.0" />
+      <TextField fx:id="nr_telefon_textbox" layoutX="171.0" layoutY="260.0" />
+      <Button fx:id="ok_btn" onAction="#onOKButtonClick" layoutX="437.0" layoutY="316.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="113.0" text="OK" />
+   </children>
+</AnchorPane>
